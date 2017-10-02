@@ -1,11 +1,11 @@
 {
-  "name": "sprity",
-  "version": "1.0.8",
+  "name": "ppalka-sprity",
+  "version": "2.0.0",
   "description": "A image sprite generator",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sprity/sprity.git"
+    "url": "https://github.com/pawelpalka/sprity.git"
   },
   "homepage": "https://github.com/sprity/sprity",
   "bugs": {
@@ -23,7 +23,7 @@
     "url": "http://slansky.net"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.11.0"
   },
   "scripts": {
     "test": "mocha --reporter spec",
@@ -65,7 +65,7 @@
   },
   "optionalDependencies": {
     "sprity-css": "^1.0.2",
-    "sprity-lwip": "https://github.com/pixnet/sprity-lwip"
+    "ppalka-sprity-lwip": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^2.2.0",
